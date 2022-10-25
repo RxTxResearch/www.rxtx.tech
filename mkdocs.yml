@@ -32,6 +32,9 @@ theme:
         icon: material/lightbulb-outline
         name: Switch to light mode
 extra:
+  analytics:
+    provider: google
+    property: G-7JJSME8LFR
   consent:
     title: Cookie consent
     description: >-
