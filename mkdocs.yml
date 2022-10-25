@@ -1,0 +1,62 @@
+site_name: RxTx
+site_description: RxTx is advancing the pharmaceutical drug research by improving the scientific software behind the scenes.
+site_author: Vedran Miletić
+site_url: https://www.rxtx.tech/
+copyright: Copyright 2019 – 2022, RxTx. All rights reserved. <a href="#__consent">Change cookie settings</a>.
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - announce.dismiss
+    - header.autohide
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tracking
+    - toc.follow
+  logo: images/rxtx-symbol-white.svg
+  favicon: images/favicon.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+extra:
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/rxtx
+      name: RxTx on LinkedIn
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/RxTxResearch
+      name: RxTx Research on Twitter
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCBDDGDnCECrJAZcoYT1IT4Q
+      name: RxTx Research on YouTube
+    - icon: fontawesome/brands/github
+      link: https://github.com/rxtxresearch
+      name: RxTx Research on GitHub
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/rxtx
+      name: RxTx on GitLab
+markdown_extensions:
+  - attr_list
+  - meta
+plugins:
+  - social
