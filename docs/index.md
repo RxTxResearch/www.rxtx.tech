@@ -133,7 +133,7 @@ Virtual screening (VS) is a computational technique used in drug discovery to se
 
 For all inquiries please reach out to us via the contact form below.
 
-<form action="https://formsubmit.co/patrik.nikolic@rxtx.tech" method="POST">
+<form action="https://formsubmit.co/noreply@rxtx.tech" method="POST">
     <p>
         <label for="name">Name</label><br>
         <input type="text" name="name" style="border: 1px solid black; width: 100%" required>
@@ -146,7 +146,6 @@ For all inquiries please reach out to us via the contact form below.
         <label for="message">Message</label><br>
         <textarea name="message" style="border: 1px solid black; width: 100%; height: 5rem" required></textarea>
     </p>
-    <input type="hidden" name="_cc" value="vedran.miletic@rxtx.tech">
     <input type="text" name="_honey" style="display:none">
     <button class="md-button md-button--primary" type="submit">Send</button>
 </form>
