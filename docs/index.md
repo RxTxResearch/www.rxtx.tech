@@ -136,15 +136,15 @@ For all inquiries please reach out to us via the contact form below.
 <form action="https://formsubmit.co/fe14e503867dbcee1f459f050bde0d7f" method="POST">
     <p>
         <label for="name">Name</label><br>
-        <input type="text" name="name" style="border: 1px solid black; width: 100%" required>
+        <input type="text" name="name" class="md-input md-input--stretch" style="color: var(--md-default-fg-color); background-color: var(--md-default-bg-color)" required>
     </p>
     <p>
         <label for="email">Email</label><br>
-        <input type="email" name="email" style="border: 1px solid black; width: 100%" required>
+        <input type="email" name="email" class="md-input md-input--stretch" style="color: var(--md-default-fg-color); background-color: var(--md-default-bg-color)" required>
     </p>
     <p>
         <label for="message">Message</label><br>
-        <textarea name="message" style="border: 1px solid black; width: 100%; height: 5rem" required></textarea>
+        <textarea name="message" class="md-input md-input--stretch" style="color: var(--md-default-fg-color); background-color: var(--md-default-bg-color); height: 7rem; outline: none; resize: none" required></textarea>
     </p>
     <input type="text" name="_honey" style="display:none">
     <button class="md-button md-button--primary" type="submit">Send</button>
