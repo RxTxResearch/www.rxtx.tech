@@ -133,7 +133,7 @@ Virtual screening (VS) is a computational technique used in drug discovery to se
 
 For all inquiries please reach out to us via the contact form below.
 
-<form action="https://formsubmit.co/noreply@rxtx.tech" method="POST">
+<form action="https://formsubmit.co/fe14e503867dbcee1f459f050bde0d7f" method="POST">
     <p>
         <label for="name">Name</label><br>
         <input type="text" name="name" style="border: 1px solid black; width: 100%" required>
